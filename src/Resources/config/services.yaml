@@ -1,0 +1,7 @@
+services:
+
+    Espin\PageInfoBundle\EventListener\PageInfo:
+        public: true
+        arguments:
+            - '@database_connection'
+            - '@contao.session.contao_backend'
