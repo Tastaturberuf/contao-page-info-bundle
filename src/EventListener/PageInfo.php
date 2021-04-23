@@ -19,8 +19,6 @@ namespace Espin\PageInfoBundle\EventListener;
 
 use Contao\DataContainer;
 use Doctrine\DBAL\Connection;
-use Symfony\Component\HttpFoundation\Session\SessionInterface;
-use function _HumbugBox61bfe547a037\RingCentral\Psr7\str;
 
 
 class PageInfo
